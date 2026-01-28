@@ -1,7 +1,11 @@
-import Message from './Message';
+import Chat from "./components/Chat";
 
 function App() {
-  return <div><Message></Message></div>
+  return (
+    <div>
+      <Chat />
+    </div>
+  );
 }
 
-export default App
+export default App;
